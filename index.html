@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <form class="all" method="POST" action="lite.php">
+        <h3>Registration Form</h3>
+        <p>Enter your valid information for<br> registration</p>
+        <hr>
+        <label for="fname" class="label">First Name:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;
+        <label for="lname"class="label" >Last Name:</label><br>
+
+        <input type="text" name="fname" id="fname" placeholder=" first name" class="i" style="width: 120px;">
+        &nbsp;&nbsp;
+        <input type="text" name="lname" id="lname" placeholder=" last name" class="i" style="width: 120px; "><br><br>
+
+        <label for="email"class="label" >Email id:</label><br>
+        <input type="email" name="email" id="email" placeholder="Enter your valid Email" class="i"><br><br>
+
+        <label for="pin"class="label" >Password:</label><br>
+        <input type="password" name="pin" id="pin" placeholder="Enter your password" class="i" required><br><br>
+
+        <label for="" class="label" >Gender:</label><br>
+        
+        <input type="radio" name="gender" id="male">
+        <label for="male" class="gender">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female" class="gender" >Female</label>
+        <input type="radio" name="gender" id="other">
+        <label for="other"  class="gender">Other</label>
+        <br><br>
+
+        <label for="bio"class="label" >Bio:</label><br>
+        <textarea name="bio" id="bio" cols="32.9" rows="2" id="bio" placeholder=""></textarea><br><br>
+
+        <input type="submit" value="submit" id="sub">
+        
+        <p id="p1">agree our <a href="#HOME">Terms and condition|<br>privacy policy</a></p>
+    </form>
+
+   
+</body>
+
+</html>
